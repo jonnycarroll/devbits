@@ -23,3 +23,11 @@ optimisation, e.g. a common pattern I follow is creating a new branch from the
 latest version of the main line of the codebase:
 
 `gcm-pl-b "branch-name"` == `git checkout main && git pull && git checkout -b "branch-name"`
+
+Pro tip: clone the repo and symlink `.bash_aliases` so you can always keep them
+in sync with improvements:
+
+```bash
+cd ~
+ln -s ~/github.com/jonnycarroll/devbits/bash/.bash_aliases .bash_aliases
+```
