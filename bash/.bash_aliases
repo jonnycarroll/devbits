@@ -12,7 +12,7 @@ alias gpl='git pull'
 alias gs='git status'
 
 ga() {
-	git add $@
+	git add "$@"
 }
 
 gbD() {
